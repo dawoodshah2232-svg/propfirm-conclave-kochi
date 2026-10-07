@@ -488,3 +488,18 @@ footer{border-top:1px solid var(--line);background:#050506;padding:64px 0 30px;m
 .foot-bottom .soc{display:inline-flex;align-items:center;gap:7px;color:var(--gold-hi);font-weight:600}
 .foot-bottom .soc svg{flex:none}
 .foot-bottom .soc:hover{color:#fff}
+
+/* ============ Centered hero ============ */
+.hero-content{text-align:center;display:flex;flex-direction:column;align-items:center}
+.hero-kicker{justify-content:center}
+.hero-meta{justify-content:center;text-align:center}
+.hero-actions{justify-content:center}
+.countdown{justify-content:center}
+
+/* ============ Meet cards: modern line icons ============ */
+.meet-card .icon{
+  width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,rgba(201,162,75,.22),rgba(201,162,75,.06));
+  border:1px solid rgba(201,162,75,.35);margin-bottom:20px;
+}
+.meet-card .icon svg{width:26px;height:26px;stroke:var(--gold-hi);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
