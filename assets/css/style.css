@@ -144,8 +144,8 @@ body{top:0!important}
 
 /* ---------- hero ---------- */
 .hero{
-  min-height:100svh;display:flex;align-items:flex-end;position:relative;overflow:hidden;
-  padding:130px 0 0;
+  min-height:100svh;display:flex;align-items:center;position:relative;overflow:hidden;
+  padding:120px 0 70px;
 }
 .hero-bg{position:absolute;inset:0;z-index:0}
 .hero-bg img{width:100%;height:100%;object-fit:cover;opacity:.55}
@@ -156,7 +156,7 @@ body{top:0!important}
     linear-gradient(180deg,rgba(7,7,9,.72) 0%,rgba(7,7,9,.45) 40%,rgba(7,7,9,.96) 88%,var(--bg) 100%);
 }
 #dust{position:absolute;inset:0;z-index:1;pointer-events:none}
-.hero-content{position:relative;z-index:2;padding-bottom:56px;width:100%}
+.hero-content{position:relative;z-index:2;width:100%}
 .hero-kicker{
   display:inline-flex;align-items:center;gap:12px;margin-bottom:22px;
   font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold-hi);font-weight:600;
