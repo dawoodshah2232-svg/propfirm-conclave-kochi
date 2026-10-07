@@ -136,7 +136,6 @@ include __DIR__ . '/includes/header.php';
       <div class="card rv rv-d2">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></div>
         <h3>Expo &amp; Tool Showcase</h3><p>Platforms, data tools, journals and prop-tech — explore the expo floor and test the tools funded traders actually use.</p>
-      </div>
     </div>
   </div>
 </section>
@@ -183,7 +182,6 @@ include __DIR__ . '/includes/header.php';
       <div class="speaker-card rv rv-d2">
         <div class="photo"><img src="assets/img/speaker-6.jpg" alt="Rahul Verma — funded trader, speaker" loading="lazy"></div>
         <div class="info"><div class="role">Funded Trader</div><h3>Rahul Verma</h3><span class="co">Independent</span><p class="bio">Scaled from a $10K evaluation to $800K in funded capital in 18 months.</p></div>
-      </div>
     </div>
           <?php endif; ?><p class="sample-note rv">Sample lineup shown for illustration — final speaker announcements begin soon.</p>
     <div class="rv" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px">
@@ -213,7 +211,6 @@ include __DIR__ . '/includes/header.php';
         <span class="pill">Day 2 · Sun 13 Dec</span>
         <h3>Mastery &amp; Scale-Up</h3>
         <p>Funded-trader panels, psychology of consistency, scaling plans decoded, algo &amp; prop-tech showcase, funding Q&amp;A and the closing ceremony.</p>
-      </div>
     </div>
   </div>
 </section>
@@ -267,7 +264,6 @@ include __DIR__ . '/includes/header.php';
           <li><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Priority workshop seats</li>
         </ul>
         <a class="btn btn-ghost" href="tickets.php">Choose VIP</a>
-      </div>
     </div>
   </div>
 </section>
@@ -439,19 +435,14 @@ include __DIR__ . '/includes/header.php';
 <!-- ================= FINAL CTA ================= -->
 <section>
   <div class="wrap">
-    <div class="cta-band rv">
-      <div class="cta-watermark" aria-hidden="true">Kochi 2026</div>
-      <span class="notch left" aria-hidden="true"></span>
-      <span class="notch right" aria-hidden="true"></span>
-      <div class="cta-inner">
-      <span class="eyebrow" style="justify-content:center">12–13 December 2026 · Kochi</span>
+    <div class="cta-band rv" data-watermark="Kochi 2026">
+            <span class="eyebrow" style="justify-content:center">12–13 December 2026 · Kochi</span>
       <h2>Your funded journey<br><span class="gold-text">starts in Kochi.</span></h2>
       <p>Two days. Twenty speakers. Fifteen prop firms. One decision that could change how you trade — be in the room.</p>
       <div class="cta-perks"><span>2 days</span><i>◆</i><span>20+ speakers</span><i>◆</i><span>15+ prop firms</span><i>◆</i><span>Live trading</span></div>
       <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
         <a class="btn btn-gold" href="tickets.php">Get Your Pass</a>
         <a class="btn btn-ghost" href="contact.php">Talk to Us</a>
-      </div>
       </div>
     </div>
   </div>

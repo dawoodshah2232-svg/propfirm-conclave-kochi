@@ -25,13 +25,11 @@ $more = site_q("SELECT slug, title, cover FROM posts WHERE status='published' AN
     <article class="article-body rv">
       <?= $post['body'] ?>
     </article>
-    <div class="cta-band rv" style="margin-top:60px;padding:60px 26px">
-      <div class="cta-inner">
+    <div class="cta-band rv" data-watermark="Learn it live" style="margin-top:60px;padding:60px 26px">
         <h2 style="font-size:1.8rem">Your funded journey<br><span class="gold-text">starts in Kochi.</span></h2>
         <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:22px">
           <a class="btn btn-gold" href="../tickets.php">Get Your Pass</a>
         </div>
-      </div>
     </div>
     <?php if ($more): ?>
     <h2 style="margin:50px 0 20px">Keep reading</h2>

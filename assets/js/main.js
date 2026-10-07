@@ -223,3 +223,13 @@ document.querySelectorAll("form[data-mailto]").forEach(function(f){
     if(ok) ok.style.display = 'block';
   });
 })();
+
+/* ---------- CTA bands: watermark default + ambient gold motes (all pages) ---------- */
+document.querySelectorAll('.cta-band').forEach(function(b){
+  if(!b.hasAttribute('data-watermark')) b.setAttribute('data-watermark','Kochi 2026');
+  if(!b.querySelector('.motes')){
+    var m=document.createElement('span');
+    m.className='motes';m.setAttribute('aria-hidden','true');
+    b.insertBefore(m,b.firstChild);
+  }
+});

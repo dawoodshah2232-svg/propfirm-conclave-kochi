@@ -17,7 +17,7 @@
   --muted:#a9a9b8;
   --muted-2:#7c7c8a;
   --radius:18px;
-  --font-display:"Bodoni Moda",Didot,"Playfair Display",Georgia,serif;
+  --font-display:"Playfair Display",Didot,Georgia,serif;
   --font-body:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
   --ease:cubic-bezier(.22,1,.36,1);
 }
@@ -45,7 +45,7 @@ section{padding:72px 0;position:relative}
   color:var(--gold);font-weight:600;margin-bottom:18px;
 }
 .eyebrow::before{content:"";width:34px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
-h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.12;letter-spacing:.01em}
+h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.12;letter-spacing:.01em}
 .h-display{font-size:clamp(2.6rem,8vw,5.2rem)}
 .h-section{font-size:clamp(1.9rem,5vw,3rem);margin-bottom:14px}
 .lead{color:var(--muted);font-size:clamp(1rem,2.6vw,1.18rem);max-width:640px}
@@ -411,7 +411,7 @@ footer{border-top:1px solid var(--line);background:#050506;padding:64px 0 30px;m
 @media(prefers-reduced-motion:reduce){
   .rv{opacity:1;transform:none;transition:none}
   .ticker-track{animation:none}
-  .orb,.cta-band::before{animation:none}
+  .orb,.cta-band::before,.motes::before,.motes::after{animation:none}
   #dust{display:none}
   html{scroll-behavior:auto}
 }
@@ -517,16 +517,38 @@ footer{border-top:1px solid var(--line);background:#050506;padding:64px 0 30px;m
 }
 .meet-card .icon svg{width:26px;height:26px;stroke:var(--gold-hi);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 
-/* ============ CTA band: golden ticket ============ */
-.cta-band{padding:90px 26px;box-shadow:0 40px 100px -40px rgba(201,162,75,.35),inset 0 1px 0 rgba(255,255,255,.06)}
-.cta-watermark{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:0;font-family:var(--font-display);font-weight:700;font-size:clamp(4rem,15vw,11rem);letter-spacing:.06em;white-space:nowrap;color:transparent;-webkit-text-stroke:1px rgba(201,162,75,.16);pointer-events:none;user-select:none}
-.cta-band .notch{position:absolute;top:50%;width:46px;height:46px;border-radius:50%;background:var(--bg);transform:translateY(-50%);z-index:2;pointer-events:none}
-.cta-band .notch.left{left:-23px}
-.cta-band .notch.right{right:-23px}
-.cta-inner{position:relative;z-index:1}
+/* ============ CTA band: golden ticket (all pages) ============ */
+.cta-band{
+  padding:90px 26px;
+  box-shadow:0 40px 100px -40px rgba(201,162,75,.35),inset 0 1px 0 rgba(255,255,255,.06);
+  background:
+    radial-gradient(circle 26px at -2px 50%, var(--bg) 26px, transparent 27px),
+    radial-gradient(circle 26px at calc(100% + 2px) 50%, var(--bg) 26px, transparent 27px),
+    linear-gradient(160deg,#171106 0%,#0d0d11 55%,#190a0e 100%);
+}
+.cta-band::after{
+  content:attr(data-watermark);
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:0;
+  font-family:var(--font-display);font-weight:800;
+  font-size:clamp(3rem,13vw,9rem);letter-spacing:.05em;white-space:nowrap;
+  color:transparent;-webkit-text-stroke:1px rgba(201,162,75,.16);
+  pointer-events:none;user-select:none;
+}
+.cta-band>*{position:relative;z-index:1}
+.cta-band h2{font-size:clamp(2rem,6vw,3.4rem);margin-bottom:14px}
+.cta-band p{color:var(--muted);max-width:560px;margin-left:auto;margin-right:auto;margin-bottom:30px}
 .cta-perks{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:6px 0 30px;color:var(--gold-hi);font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;font-weight:600}
 .cta-perks i{color:rgba(201,162,75,.5);font-style:normal;font-size:8px}
-.cta-band p{max-width:560px;margin-left:auto;margin-right:auto}
+/* ambient gold motes — a light particle drift on every CTA band */
+.motes{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.motes::before,.motes::after{content:"";position:absolute;top:0;left:0;border-radius:50%;background:#f0d48a;filter:blur(.5px)}
+.motes::before{width:4px;height:4px;opacity:.75;
+  box-shadow:6vw 300px 0 0 rgba(240,212,138,.7),18vw 120px 0 0 rgba(240,212,138,.4),32vw 340px 0 0 rgba(240,212,138,.55),48vw 90px 0 0 rgba(240,212,138,.65),63vw 260px 0 0 rgba(240,212,138,.45),78vw 150px 0 0 rgba(240,212,138,.6),90vw 320px 0 0 rgba(240,212,138,.5);
+  animation:moteFloat 8s ease-in-out infinite alternate}
+.motes::after{width:3px;height:3px;opacity:.6;
+  box-shadow:12vw 200px 0 0 rgba(232,197,106,.5),28vw 60px 0 0 rgba(232,197,106,.35),44vw 380px 0 0 rgba(232,197,106,.45),58vw 180px 0 0 rgba(232,197,106,.55),74vw 340px 0 0 rgba(232,197,106,.4),88vw 100px 0 0 rgba(232,197,106,.5);
+  animation:moteFloat 12s ease-in-out infinite alternate-reverse}
+@keyframes moteFloat{from{transform:translateY(16px)}to{transform:translateY(-18px)}}
 
 /* ============ Newsletter band: designed ============ */
 .news-band{box-shadow:0 30px 90px -40px rgba(201,162,75,.3)}

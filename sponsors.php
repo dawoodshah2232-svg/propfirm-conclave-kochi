@@ -32,18 +32,13 @@ $groups = sponsors_by_tier();
     </div>
     <?php endforeach; endif; ?>
 
-    <div class="cta-band rv" style="margin-top:70px">
-      <div class="cta-watermark" aria-hidden="true">Partner</div>
-      <span class="notch left" aria-hidden="true"></span>
-      <span class="notch right" aria-hidden="true"></span>
-      <div class="cta-inner">
-        <span class="eyebrow" style="justify-content:center">Sponsorships</span>
+    <div class="cta-band rv" data-watermark="Partner" style="margin-top:70px">
+              <span class="eyebrow" style="justify-content:center">Sponsorships</span>
         <h2>Put your brand <span class="gold-text">in the room.</span></h2>
         <p style="max-width:560px;margin-left:auto;margin-right:auto">Exhibition booths, speaking slots and branding across two days in front of India's funded-trading community.</p>
         <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px">
           <a class="btn btn-gold" href="contact.php">Become a Sponsor</a>
         </div>
-      </div>
     </div>
   </div>
 </section>
