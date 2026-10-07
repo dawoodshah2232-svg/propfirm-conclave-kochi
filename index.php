@@ -79,8 +79,8 @@ include __DIR__ . '/includes/header.php';
 <section>
   <div class="wrap split">
     <div class="img-frame rv">
-      <img src="assets/img/blog-study-real.jpg" alt="Keynote speaker on a dark stage presenting trading charts to an audience" loading="lazy">
-      <div class="cap">Keynote stage · PropFirm Conclave</div>
+      <img src="assets/img/real/web/stage-speaker.jpg" alt="Speaker on stage at FinFuenZe Awards 2026" loading="lazy">
+      <div class="cap">On stage · FinFuenZe Awards 2026, Chennai</div>
     </div>
     <div>
       <span class="eyebrow rv">The event</span>
