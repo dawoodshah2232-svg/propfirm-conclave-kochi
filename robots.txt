@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/sitemap.xml
