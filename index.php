@@ -383,7 +383,7 @@ include __DIR__ . '/includes/header.php';
       <?php endforeach; else: ?>
 
       <a class="post rv" href="blog/what-is-a-prop-firm.php">
-        <div class="thumb"><img src="assets/img/blog-desk-real.jpg" alt="A real trader's desk with dual monitors showing live trading charts" loading="lazy"></div>
+        <div class="thumb"><img src="assets/img/real/web/onstage.jpg" alt="Speaker engaging the audience at FinFuenZe Awards 2026" loading="lazy"></div>
         <div class="body">
           <div class="kicker">Prop trading basics</div>
           <h3>What Is a Prop Firm? A Beginner's Guide to Funded Trading</h3>
@@ -392,7 +392,7 @@ include __DIR__ . '/includes/header.php';
         </div>
       </a>
       <a class="post rv rv-d1" href="blog/how-prop-firm-challenges-work.php">
-        <div class="thumb"><img src="assets/img/blog-seminar-real.jpg" alt="Audience at a live trading seminar" loading="lazy"></div>
+        <div class="thumb"><img src="assets/img/real/web/panel-2.jpg" alt="Panel discussion at FinFuenZe Awards 2026" loading="lazy"></div>
         <div class="body">
           <div class="kicker">Challenges</div>
           <h3>How Prop Firm Challenges Work: Evaluations, Targets &amp; Drawdowns</h3>
@@ -401,7 +401,7 @@ include __DIR__ . '/includes/header.php';
         </div>
       </a>
       <a class="post rv rv-d2" href="blog/risk-management-funded-trader.php">
-        <div class="thumb"><img src="assets/img/blog-study-real.jpg" alt="Trader reviewing risk notes and charts at his desk" loading="lazy"></div>
+        <div class="thumb"><img src="assets/img/real/web/audience-2.jpg" alt="Audience learning at FinFuenZe Awards 2026" loading="lazy"></div>
         <div class="body">
           <div class="kicker">Risk management</div>
           <h3>Risk Management Rules Every Funded Trader Must Know</h3>
