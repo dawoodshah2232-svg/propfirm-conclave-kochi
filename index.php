@@ -9,7 +9,7 @@ include __DIR__ . '/includes/header.php';
 
 <!-- ================= HERO ================= -->
 <section class="hero" style="padding-top:0">
-  <div class="hero-bg"><img src="<?= site_esc(block('home','hero','bg_image','assets/img/hero-arena.jpg')) ?>" alt="Grand dark arena with golden holographic candlestick charts floating above the stage" fetchpriority="high"></div>
+  <div class="hero-bg"><img src="<?= site_esc(block('home','hero','bg_image','assets/img/real/web/hero-crowd.jpg')) ?>" alt="Packed FinFuenZe Awards 2026 ballroom — full house facing the stage" fetchpriority="high"></div>
   <canvas id="dust" aria-hidden="true"></canvas>
   <div class="wrap hero-content">
     <span class="hero-kicker rv"><span class="dot"></span> <?= site_esc(block('home','hero','kicker','Finfluenze presents')) ?></span>
@@ -109,7 +109,7 @@ include __DIR__ . '/includes/header.php';
       <a class="btn btn-ghost btn-sm rv" href="tickets.php">See ticket options</a>
     </div>
     <div class="art-banner rv">
-      <img src="assets/img/why-attend-conference.jpg" alt="Golden candlestick towers rising over a dark trading floor — artistic impression" loading="lazy">
+      <img src="assets/img/real/web/panel-2.jpg" alt="Panel discussion at FinFuenZe Awards 2026: South India Edition" loading="lazy">
       <div class="cap">Two days · One room · Every prop firm that matters</div>
     </div>
     <div class="grid-3">
@@ -283,7 +283,7 @@ include __DIR__ . '/includes/header.php';
       <a class="btn btn-gold rv" href="sponsors.php">Become a sponsor</a>
     </div>
     <div class="img-frame rv">
-      <img src="assets/img/expo.jpg" alt="Premium expo floor with black and gold exhibition booths and trading screens" loading="lazy">
+      <img src="assets/img/real/web/crowd-wide.jpg" alt="FinFuenZe Awards 2026 audience — hundreds of attendees in the ballroom" loading="lazy">
       <div class="cap">The expo floor · Adlux Convention Centre</div>
     </div>
   </div>
@@ -312,6 +312,48 @@ include __DIR__ . '/includes/header.php';
     </div>
     <div class="media-strip rv">
       <span>FX Daily</span><span>Trade Wire</span><span>Market Pulse</span><span>Kerala Biz</span><span>Chart Talk</span><span>Capital News</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= TRACK RECORD ================= -->
+<section style="background:var(--bg-2);overflow:hidden">
+  <div class="wrap split">
+    <div class="img-frame rv">
+      <img src="assets/img/real/web/stage-group.jpg" alt="Winners on stage at FinFuenZe Awards 2026" loading="lazy">
+      <div class="cap">FinFuenZe Awards 2026 · Chennai</div>
+    </div>
+    <div>
+      <span class="eyebrow rv">Our track record</span>
+      <h2 class="h-section rv">We've done this <span class="gold-text">before.</span></h2>
+      <p class="lead rv">The FinFuenZe Awards 2026 — South India Edition packed a Chennai ballroom: live panels, a full house, and an awards night the trading community still talks about.</p>
+      <ul>
+        <li class="rv"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Full-house stage</strong> — keynote screens, live panels and award presentations.</span></li>
+        <li class="rv rv-d1"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Real community</strong> — hundreds of traders, partners and teams in one room.</span></li>
+        <li class="rv rv-d2"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Run by Finfluenze</strong> — the same team producing PropFirm Conclave Kochi.</span></li>
+      </ul>
+      <div class="rv" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+        <a class="btn btn-gold" href="gallery.php">See the Photos</a>
+        <a class="btn btn-ghost" href="about.php">About Finfluenze</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:44px">
+    <div class="marquee-row rv">
+      <div class="marquee-track">
+        <img src="assets/img/real/web/hero-crowd.jpg" alt="Full house at FinFuenZe Awards 2026" loading="lazy">
+        <img src="assets/img/real/web/panel.jpg" alt="Panel discussion on stage" loading="lazy">
+        <img src="assets/img/real/web/award-moment.jpg" alt="Award presentation" loading="lazy">
+        <img src="assets/img/real/web/audience.jpg" alt="Audience at the event" loading="lazy">
+        <img src="assets/img/real/web/networking.jpg" alt="Networking dinner" loading="lazy">
+        <img src="assets/img/real/web/hero-crowd.jpg" alt="" loading="lazy" aria-hidden="true">
+        <img src="assets/img/real/web/panel.jpg" alt="" loading="lazy" aria-hidden="true">
+        <img src="assets/img/real/web/award-moment.jpg" alt="" loading="lazy" aria-hidden="true">
+        <img src="assets/img/real/web/audience.jpg" alt="" loading="lazy" aria-hidden="true">
+        <img src="assets/img/real/web/networking.jpg" alt="" loading="lazy" aria-hidden="true">
+      </div>
     </div>
   </div>
 </section>

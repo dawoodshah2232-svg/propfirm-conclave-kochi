@@ -50,14 +50,14 @@ if (!$count('sponsors')) {
 // ------------------------------------------------------------ gallery
 if (!$count('gallery')) {
     $imgs = [
-        ['Keynote stage', 'assets/img/keynote.jpg', 0],
-        ['Panel discussion', 'assets/img/panel.jpg', 1],
-        ['Expo floor', 'assets/img/expo.jpg', 2],
-        ['Networking evening', 'assets/img/networking.jpg', 3],
+        ['Keynote stage', 'assets/img/real/web/stage-speaker.jpg', 0],
+        ['Panel discussion', 'assets/img/real/web/panel.jpg', 1],
+        ['Expo floor', 'assets/img/real/web/crowd-wide.jpg', 2],
+        ['Networking evening', 'assets/img/real/web/networking.jpg', 3],
         ['Adlux Convention Centre', 'assets/img/venue-adlux-1.jpg', 4],
         ['Adlux at dusk', 'assets/img/venue-adlux-2.jpg', 5],
-        ['Conference hall', 'assets/img/why-attend-conference.jpg', 6],
-        ['Gala night', 'assets/img/gala.jpg', 7],
+        ['Conference hall', 'assets/img/real/web/panel-2.jpg', 6],
+        ['Gala night', 'assets/img/real/web/stage-group.jpg', 7],
     ];
     echo 'gallery: ' . $ins('gallery', ['title','image','sort'], $imgs) . PHP_EOL;
 }
