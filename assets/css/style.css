@@ -482,3 +482,9 @@ footer{border-top:1px solid var(--line);background:#050506;padding:64px 0 30px;m
 .art-banner img{width:100%;height:300px;object-fit:cover;display:block}
 @media(min-width:760px){.art-banner img{height:380px}}
 .art-banner .cap{position:absolute;left:0;right:0;bottom:0;padding:34px 28px 20px;background:linear-gradient(180deg,transparent,rgba(5,5,8,.85));font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-hi)}
+
+/* ============ Footer social ============ */
+.foot-bottom .links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.foot-bottom .soc{display:inline-flex;align-items:center;gap:7px;color:var(--gold-hi);font-weight:600}
+.foot-bottom .soc svg{flex:none}
+.foot-bottom .soc:hover{color:#fff}
