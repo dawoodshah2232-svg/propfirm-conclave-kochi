@@ -583,3 +583,9 @@ footer{border-top:1px solid var(--line);background:#050506;padding:64px 0 30px;m
 .marquee-track img{height:190px;width:300px;object-fit:cover;border-radius:14px;border:1px solid var(--line);flex-shrink:0}
 @keyframes marquee{to{transform:translateX(calc(-50% - 7px))}}
 @media (prefers-reduced-motion:reduce){.marquee-track{animation:none}}
+
+/* speaker company pill: never clip on narrow phones */
+@media(max-width:559px){
+  .speaker-card .co{font-size:10px;letter-spacing:.08em;padding:5px 10px;max-width:100%;overflow-wrap:anywhere}
+  .speaker-card .info{padding:16px 12px}
+}
