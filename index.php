@@ -9,7 +9,7 @@ include __DIR__ . '/includes/header.php';
 
 <!-- ================= HERO ================= -->
 <section class="hero" style="padding-top:0">
-  <div class="hero-bg"><img src="<?= site_esc(block('home','hero','bg_image','assets/img/real/web/hero-crowd.jpg')) ?>" alt="Packed FinFuenZe Awards 2026 ballroom — full house facing the stage" fetchpriority="high"></div>
+  <div class="hero-bg"><img src="<?= site_esc(block('home','hero','bg_image','assets/img/real/web/hero-crowd-dark.jpg')) ?>" alt="Packed FinFuenZe Awards 2026 ballroom — full house facing the stage" fetchpriority="high"></div>
   <canvas id="dust" aria-hidden="true"></canvas>
   <div class="wrap hero-content">
     <span class="hero-kicker rv"><span class="dot"></span> <?= site_esc(block('home','hero','kicker','Finfluenze presents')) ?></span>
@@ -343,12 +343,12 @@ include __DIR__ . '/includes/header.php';
   <div class="wrap" style="margin-top:44px">
     <div class="marquee-row rv">
       <div class="marquee-track">
-        <img src="assets/img/real/web/hero-crowd.jpg" alt="Full house at FinFuenZe Awards 2026" loading="lazy">
+        <img src="assets/img/real/web/crowd-wide.jpg" alt="Full house at FinFuenZe Awards 2026" loading="lazy">
         <img src="assets/img/real/web/panel.jpg" alt="Panel discussion on stage" loading="lazy">
         <img src="assets/img/real/web/award-moment.jpg" alt="Award presentation" loading="lazy">
         <img src="assets/img/real/web/audience.jpg" alt="Audience at the event" loading="lazy">
         <img src="assets/img/real/web/networking.jpg" alt="Networking dinner" loading="lazy">
-        <img src="assets/img/real/web/hero-crowd.jpg" alt="" loading="lazy" aria-hidden="true">
+        <img src="assets/img/real/web/crowd-wide.jpg" alt="" loading="lazy" aria-hidden="true">
         <img src="assets/img/real/web/panel.jpg" alt="" loading="lazy" aria-hidden="true">
         <img src="assets/img/real/web/award-moment.jpg" alt="" loading="lazy" aria-hidden="true">
         <img src="assets/img/real/web/audience.jpg" alt="" loading="lazy" aria-hidden="true">
