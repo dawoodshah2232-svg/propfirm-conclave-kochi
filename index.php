@@ -1,103 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>PropFirm Conclave Kochi 2026 | Connect · Trade · Get Funded — by Finfluenze</title>
-<meta name="description" content="PropFirm Conclave Kochi 2026 — India's premier proprietary trading event. 12–13 December 2026 at Adlux Convention Centre, Kochi. Meet prop firms, learn funded-trader strategies, live trading, workshops. Connect · Trade · Get Funded.">
-<meta name="keywords" content="prop firm, prop trading, funded trader, prop firm challenge, Kochi trading event, forex expo India, Finfluenze, trading conference Kerala">
-<meta name="author" content="Finfluenze">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/">
-<meta name="theme-color" content="#070709">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="PropFirm Conclave Kochi 2026">
-<meta property="og:title" content="PropFirm Conclave Kochi 2026 | Connect · Trade · Get Funded">
-<meta property="og:description" content="India's premier prop trading event — 12–13 December 2026, Adlux Convention Centre, Kochi. Meet prop firms, master funded trading, network with 2000+ traders.">
-<meta property="og:url" content="https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/">
-<meta property="og:image" content="https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/assets/img/blog-seminar-real.jpg">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PropFirm Conclave Kochi 2026 | Connect · Trade · Get Funded">
-<meta name="twitter:description" content="12–13 December 2026 · Adlux Convention Centre, Kochi · by Finfluenze. The prop trading event of the year.">
-<meta name="twitter:image" content="https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/assets/img/blog-seminar-real.jpg">
-<link rel="icon" type="image/png" href="assets/img/logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600;6..96,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20261007d">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Event","name":"PropFirm Conclave — Kochi 2026",
-"description":"India's premier proprietary trading event. Meet prop firms face-to-face, learn funded-trader strategies, watch live trading and get funded. 12–13 December 2026, Kochi.",
-"startDate":"2026-12-12T09:00:00+05:30","endDate":"2026-12-13T18:00:00+05:30",
-"eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
-"location":{"@type":"Place","name":"Adlux International Convention & Exhibition Centre","address":{"@type":"PostalAddress","streetAddress":"Adlux International Convention Centre, Angamaly","addressLocality":"Kochi","addressRegion":"Kerala","postalCode":"683572","addressCountry":"IN"}},
-"image":["https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/assets/img/blog-seminar-real.jpg"],
-"organizer":{"@type":"Organization","name":"Finfluenze","url":"https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/"},
-"offers":{"@type":"Offer","name":"Early Bird Pass","price":"999","priceCurrency":"INR","availability":"https://schema.org/InStock","url":"https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/tickets.html"}}
-</script>
-</head>
-<body>
+<?php
+$page_title = 'PropFirm Conclave Kochi 2026 | Connect · Trade · Get Funded — by Finfluenze';
+$page_desc  = "PropFirm Conclave Kochi 2026 — India's premier proprietary trading event. 12–13 December 2026 at Adlux Convention Centre, Kochi. Meet prop firms, learn funded-trader strategies, live trading, workshops. Connect · Trade · Get Funded.";
+include __DIR__ . '/includes/head.php';
+include __DIR__ . '/includes/header.php';
+?>
 
-<header class="site-header">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html" aria-label="PropFirm Conclave Kochi 2026 — home">
-      <img src="assets/img/logo-header.png" alt="PropFirm Conclave Kochi">
-    </a>
-    <nav class="nav-links" aria-label="Primary">
-      <a href="about.html">About</a>
-      <a href="speakers.html">Speakers</a>
-      <a href="agenda.html">Agenda</a>
-      <a href="tickets.html">Tickets</a>
-      <a href="sponsors.html">Sponsors</a>
-      <a href="venue.html">Venue</a>
-      <a href="blog/index.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div style="display:flex;gap:10px;align-items:center">
-      <div class="lang-wrap">
-        <button class="lang-btn" type="button" aria-label="Choose language" aria-haspopup="true">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          <span class="lang-label">English</span>
-        </button>
-        <div class="lang-menu" role="menu" aria-label="Languages"></div>
-      </div>
-      <a class="btn btn-gold btn-sm nav-cta" href="tickets.html">Get Tickets</a>
-      <button class="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
-<div class="mobile-menu" aria-hidden="true">
-  <a href="about.html"><span class="idx">01</span> About</a>
-  <a href="speakers.html"><span class="idx">02</span> Speakers</a>
-  <a href="agenda.html"><span class="idx">03</span> Agenda</a>
-  <a href="tickets.html"><span class="idx">04</span> Tickets</a>
-  <a href="sponsors.html"><span class="idx">05</span> Sponsors</a>
-  <a href="venue.html"><span class="idx">06</span> Venue</a>
-  <a href="blog/index.html"><span class="idx">07</span> Blog</a>
-  <a href="contact.html"><span class="idx">08</span> Contact</a>
-  <a class="btn btn-gold" href="tickets.html">Get Tickets</a>
-</div>
-<div id="google_translate_element"></div>
+<?php /* header included above */ ?>
 
-<main>
 <!-- ================= HERO ================= -->
 <section class="hero" style="padding-top:0">
-  <div class="hero-bg"><img src="assets/img/hero-arena.jpg" alt="Grand dark arena with golden holographic candlestick charts floating above the stage" fetchpriority="high"></div>
+  <div class="hero-bg"><img src="<?= site_esc(block('home','hero','bg_image','assets/img/hero-arena.jpg')) ?>" alt="Grand dark arena with golden holographic candlestick charts floating above the stage" fetchpriority="high"></div>
   <canvas id="dust" aria-hidden="true"></canvas>
   <div class="wrap hero-content">
-    <span class="hero-kicker rv"><span class="dot"></span> Finfluenze presents</span>
-    <h1 class="h-display rv rv-d1"><span class="gold-text">PROPFIRM</span><br>CONCLAVE</h1>
-    <div class="hero-sub rv rv-d1">K O C H I &nbsp;2 0 2 6</div>
-    <div class="hero-tag rv rv-d2">Connect &nbsp;|&nbsp; Trade &nbsp;|&nbsp; Get Funded</div>
+    <span class="hero-kicker rv"><span class="dot"></span> <?= site_esc(block('home','hero','kicker','Finfluenze presents')) ?></span>
+    <h1 class="h-display rv rv-d1"><span class="gold-text"><?= site_esc(block('home','hero','title_line1','PROPFIRM')) ?></span><br><?= site_esc(block('home','hero','title_line2','CONCLAVE')) ?></h1>
+    <div class="hero-sub rv rv-d1"><?= site_esc(block('home','hero','subtitle','K O C H I  2 0 2 6')) ?></div>
+    <div class="hero-tag rv rv-d2"><?= site_esc(block('home','hero','tagline','Connect | Trade | Get Funded')) ?></div>
     <div class="hero-meta rv rv-d2">
-      <span><strong>12–13 December 2026</strong> · Sat–Sun</span>
-      <span>Adlux Convention Centre, <strong>Kochi, Kerala</strong></span>
+      <span><strong><?= site_esc(block('home','hero','dates','12–13 December 2026')) ?></strong> · Sat–Sun</span>
+      <span><?= site_esc(block('home','hero','venue','Adlux Convention Centre, Kochi, Kerala')) ?></span>
     </div>
     <div class="hero-actions rv rv-d3">
-      <a class="btn btn-gold" href="tickets.html">Get Your Pass</a>
-      <a class="btn btn-ghost" href="agenda.html">Explore Agenda</a>
+      <a class="btn btn-gold" href="tickets.php"><?= site_esc(block('home','hero','cta_primary','Get Your Pass')) ?></a>
+      <a class="btn btn-ghost" href="agenda.php"><?= site_esc(block('home','hero','cta_secondary','Explore Agenda')) ?></a>
     </div>
     <div class="countdown rv rv-d3" id="countdown" role="timer" aria-label="Countdown to PropFirm Conclave Kochi 2026">
       <div class="cd-cell"><b data-d>00</b><span>Days</span></div>
@@ -166,7 +91,7 @@
         <li class="rv rv-d1"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Funded-trader playbooks</strong> — risk, psychology and consistency from traders who passed.</span></li>
         <li class="rv rv-d2"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Live trading &amp; workshops</strong> — watch strategies executed in real market conditions.</span></li>
       </ul>
-      <a class="btn btn-ghost rv" href="about.html">About the conclave</a>
+      <a class="btn btn-ghost rv" href="about.php">About the conclave</a>
     </div>
   </div>
 </section>
@@ -181,7 +106,7 @@
         <span class="eyebrow rv">Why attend</span>
         <h2 class="h-section rv">Two days that can change <span class="gold-text">your trading career.</span></h2>
       </div>
-      <a class="btn btn-ghost btn-sm rv" href="tickets.html">See ticket options</a>
+      <a class="btn btn-ghost btn-sm rv" href="tickets.php">See ticket options</a>
     </div>
     <div class="art-banner rv">
       <img src="assets/img/why-attend-conference.jpg" alt="Golden candlestick towers rising over a dark trading floor — artistic impression" loading="lazy">
@@ -225,9 +150,16 @@
         <h2 class="h-section rv">Learn from traders <span class="gold-text">who've been funded.</span></h2>
         <p class="lead rv">Funded traders, prop firm founders, risk managers and trading psychologists on one stage.</p>
       </div>
-      <a class="btn btn-ghost btn-sm rv" href="speakers.html">All speakers</a>
+      <a class="btn btn-ghost btn-sm rv" href="speakers.php">All speakers</a>
     </div>
     <div class="speaker-grid photo-grid">
+      <?php $spk = speakers_list(6); if ($spk): foreach ($spk as $i => $p): ?>
+      <div class="speaker-card rv<?= $i%3==1?' rv-d1':($i%3==2?' rv-d2':'') ?>">
+        <div class="photo"><img src="<?= site_esc(upload_public($p['photo'])) ?>" alt="<?= site_esc($p['name'].' — '.$p['role'].', speaker at PropFirm Conclave') ?>" loading="lazy"></div>
+        <div class="info"><div class="role"><?= site_esc($p['role']) ?></div><h3><?= site_esc($p['name']) ?></h3><?php if($p['company']): ?><span class="co"><?= site_esc($p['company']) ?></span><?php endif; ?><p class="bio"><?= site_esc($p['bio']) ?></p></div>
+      </div>
+      <?php endforeach; else: ?>
+
       <div class="speaker-card rv">
         <div class="photo"><img src="assets/img/speaker-1.jpg" alt="Arjun Mehta — funded trader, speaker at PropFirm Conclave" loading="lazy"></div>
         <div class="info"><div class="role">Funded Trader</div><h3>Arjun Mehta</h3><span class="co">Apex Funding</span><p class="bio">Cleared three evaluations before going full-time — now teaches the risk framework that got him funded.</p></div>
@@ -253,10 +185,10 @@
         <div class="info"><div class="role">Funded Trader</div><h3>Rahul Verma</h3><span class="co">Independent</span><p class="bio">Scaled from a $10K evaluation to $800K in funded capital in 18 months.</p></div>
       </div>
     </div>
-    <p class="sample-note rv">Sample lineup shown for illustration — final speaker announcements begin soon.</p>
+          <?php endif; ?><p class="sample-note rv">Sample lineup shown for illustration — final speaker announcements begin soon.</p>
     <div class="rv" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px">
-      <a class="btn btn-gold btn-sm" href="speakers.html">Full lineup</a>
-      <a class="btn btn-ghost btn-sm" href="contact.html">Apply to speak</a>
+      <a class="btn btn-gold btn-sm" href="speakers.php">Full lineup</a>
+      <a class="btn btn-ghost btn-sm" href="contact.php">Apply to speak</a>
     </div>
   </div>
 </section>
@@ -269,7 +201,7 @@
         <span class="eyebrow rv">Agenda</span>
         <h2 class="h-section rv">Two days, <span class="gold-text">zero fluff.</span></h2>
       </div>
-      <a class="btn btn-ghost btn-sm rv" href="agenda.html">Full agenda</a>
+      <a class="btn btn-ghost btn-sm rv" href="agenda.php">Full agenda</a>
     </div>
     <div class="grid-2">
       <div class="card rv">
@@ -307,7 +239,7 @@
           <li class="no"><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>Hands-on workshops</li>
           <li class="no"><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>Evening gala dinner</li>
         </ul>
-        <a class="btn btn-ghost" href="tickets.html">Choose Early Bird</a>
+        <a class="btn btn-ghost" href="tickets.php">Choose Early Bird</a>
       </div>
       <div class="ticket featured rv rv-d1">
         <span class="flag">Most popular</span>
@@ -321,7 +253,7 @@
           <li><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Session recordings</li>
           <li class="no"><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>Evening gala dinner</li>
         </ul>
-        <a class="btn btn-gold" href="tickets.html">Choose Standard</a>
+        <a class="btn btn-gold" href="tickets.php">Choose Standard</a>
       </div>
       <div class="ticket rv rv-d2">
         <h3>VIP</h3>
@@ -334,7 +266,7 @@
           <li><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>VIP lounge &amp; speaker meetups</li>
           <li><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Priority workshop seats</li>
         </ul>
-        <a class="btn btn-ghost" href="tickets.html">Choose VIP</a>
+        <a class="btn btn-ghost" href="tickets.php">Choose VIP</a>
       </div>
     </div>
   </div>
@@ -352,7 +284,7 @@
         <li class="rv rv-d1"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Speaking slots</strong> — keynotes, panels and masterclass hosting.</span></li>
         <li class="rv rv-d2"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Brand visibility</strong> across stage, agenda, app and media coverage.</span></li>
       </ul>
-      <a class="btn btn-gold rv" href="sponsors.html">Become a sponsor</a>
+      <a class="btn btn-gold rv" href="sponsors.php">Become a sponsor</a>
     </div>
     <div class="img-frame rv">
       <img src="assets/img/expo.jpg" alt="Premium expo floor with black and gold exhibition booths and trading screens" loading="lazy">
@@ -365,15 +297,19 @@
       <h3 class="rv" style="font-size:1.7rem">Brands <span class="gold-text">joining us.</span></h3>
     </div>
     <div class="logo-wall">
+      <?php $sp = sponsors_flat(6); if ($sp): $k=0; foreach ($sp as $x): $k++; ?>
+      <div class="logo-tile logo rv<?= $k%4==2?' rv-d1':($k%4==3?' rv-d2':($k%4==0?' rv-d3':'')) ?>"><img src="<?= site_esc(upload_public($x['logo'])) ?>" alt="<?= site_esc($x['name']) ?> logo" loading="lazy"></div>
+      <?php endforeach; else: ?>
+
       <div class="logo-tile logo rv"><img src="assets/img/sponsors/exness.jpg" alt="Exness logo" loading="lazy"></div>
       <div class="logo-tile logo rv rv-d1"><img src="assets/img/sponsors/fundingpips.jpg" alt="FundingPips logo" loading="lazy"></div>
       <div class="logo-tile logo rv rv-d2"><img src="assets/img/sponsors/multibank.jpg" alt="MultiBank Group logo" loading="lazy"></div>
       <div class="logo-tile logo rv rv-d3"><img src="assets/img/sponsors/vantage.jpg" alt="Vantage logo" loading="lazy"></div>
       <div class="logo-tile logo rv rv-d0"><img src="assets/img/sponsors/valetax.jpg" alt="Valetax logo" loading="lazy"></div>
       <div class="logo-tile logo rv rv-d1"><img src="assets/img/sponsors/gtc.jpg" alt="GTC logo" loading="lazy"></div>
-      <a class="logo-tile cta rv rv-d2" href="sponsors.html"><b>YOUR LOGO<br>HERE<small>BECOME A SPONSOR</small></b></a>
-      <a class="logo-tile cta rv rv-d3" href="sponsors.html"><b>YOUR LOGO<br>HERE<small>EXHIBIT WITH US</small></b></a>
-    </div>
+      <a class="logo-tile cta rv rv-d2" href="sponsors.php"><b>YOUR LOGO<br>HERE<small>BECOME A SPONSOR</small></b></a>
+      <a class="logo-tile cta rv rv-d3" href="sponsors.php"><b>YOUR LOGO<br>HERE<small>EXHIBIT WITH US</small></b></a>
+    </div>      <?php endif; ?>
     <p class="sample-note rv">Sample logos shown for illustration only — final sponsors to be announced.</p>
     <div class="center" style="margin:44px 0 20px">
       <span class="eyebrow rv">Media partners</span>
@@ -394,10 +330,21 @@
         <span class="eyebrow rv">Insights</span>
         <h2 class="h-section rv">Learn before <span class="gold-text">you arrive.</span></h2>
       </div>
-      <a class="btn btn-ghost btn-sm rv" href="blog/index.html">All articles</a>
+      <a class="btn btn-ghost btn-sm rv" href="blog/index.php">All articles</a>
     </div>
     <div class="post-grid">
-      <a class="post rv" href="blog/what-is-a-prop-firm.html">
+      <?php $posts = posts_list(3); if ($posts): $k=0; foreach ($posts as $p): $k++; ?>
+      <a class="post rv<?= $k==2?' rv-d1':($k==3?' rv-d2':'') ?>" href="blog/post.php?slug=<?= site_esc($p['slug']) ?>">
+        <div class="thumb"><img src="<?= site_esc(upload_public($p['cover'])) ?>" alt="<?= site_esc($p['title']) ?>" loading="lazy"></div>
+        <div class="body">
+          <h3><?= site_esc($p['title']) ?></h3>
+          <p><?= site_esc($p['excerpt']) ?></p>
+          <div class="meta"><span><?= $p['published_at'] ? date('d M Y', strtotime($p['published_at'])) : '' ?></span><span class="more">Read →</span></div>
+        </div>
+      </a>
+      <?php endforeach; else: ?>
+
+      <a class="post rv" href="blog/what-is-a-prop-firm.php">
         <div class="thumb"><img src="assets/img/blog-desk-real.jpg" alt="A real trader's desk with dual monitors showing live trading charts" loading="lazy"></div>
         <div class="body">
           <div class="kicker">Prop trading basics</div>
@@ -406,7 +353,7 @@
           <div class="meta"><span>8 min read</span><span class="more">Read →</span></div>
         </div>
       </a>
-      <a class="post rv rv-d1" href="blog/how-prop-firm-challenges-work.html">
+      <a class="post rv rv-d1" href="blog/how-prop-firm-challenges-work.php">
         <div class="thumb"><img src="assets/img/blog-seminar-real.jpg" alt="Audience at a live trading seminar" loading="lazy"></div>
         <div class="body">
           <div class="kicker">Challenges</div>
@@ -415,7 +362,7 @@
           <div class="meta"><span>10 min read</span><span class="more">Read →</span></div>
         </div>
       </a>
-      <a class="post rv rv-d2" href="blog/risk-management-funded-trader.html">
+      <a class="post rv rv-d2" href="blog/risk-management-funded-trader.php">
         <div class="thumb"><img src="assets/img/blog-study-real.jpg" alt="Trader reviewing risk notes and charts at his desk" loading="lazy"></div>
         <div class="body">
           <div class="kicker">Risk management</div>
@@ -425,7 +372,7 @@
         </div>
       </a>
     </div>
-  </div>
+        <?php endif; ?></div>
 </section>
 
 <!-- ================= NEWSLETTER ================= -->
@@ -451,12 +398,13 @@
       <h2>Stay ahead of <span class="gold-text">the market.</span></h2>
       <p>Speaker announcements, agenda drops and early-bird alerts — straight to your inbox.</p>
       <div class="news-chips"><span>Speaker drops</span><span>Agenda alerts</span><span>Early-bird passes</span></div>
-      <form class="news-form" id="newsForm">
-        <input type="text" id="newsName" placeholder="Your name" autocomplete="name">
-        <input type="email" id="newsEmail" placeholder="Email address" required autocomplete="email">
+      <form class="news-form" id="newsForm" action="subscribe.php" method="post">
+        <input type="text" id="newsName" name="name" placeholder="Your name" autocomplete="name">
+        <input type="email" id="newsEmail" name="email" placeholder="Email address" required autocomplete="email">
         <button class="btn btn-gold" type="submit">Subscribe</button>
       </form>
-      <p class="news-ok" id="newsOk">You're on the list — watch your inbox.</p>
+      <?php if (isset($_GET['subscribed'])): ?><p class="news-ok" id="newsOk" style="display:block">You're on the list — watch your inbox.</p>
+      <?php else: ?><p class="news-ok" id="newsOk">You're on the list — watch your inbox.</p><?php endif; ?>
     </div>
   </div>
 </section>
@@ -484,7 +432,7 @@
       <button class="faq-q" type="button">Can my company exhibit or sponsor?<span class="pl">+</span></button>
       <div class="faq-a"><p>Absolutely — prop firms, brokers, platforms and prop-tech brands are welcome. See the Sponsors page for tiers, or contact us directly and we'll build a package around your goals.</p></div>
     </div>
-    <div class="center rv" style="margin-top:26px"><a class="btn btn-ghost btn-sm" href="faq.html">All questions</a></div>
+    <div class="center rv" style="margin-top:26px"><a class="btn btn-ghost btn-sm" href="faq.php">All questions</a></div>
   </div>
 </section>
 
@@ -501,8 +449,8 @@
       <p>Two days. Twenty speakers. Fifteen prop firms. One decision that could change how you trade — be in the room.</p>
       <div class="cta-perks"><span>2 days</span><i>◆</i><span>20+ speakers</span><i>◆</i><span>15+ prop firms</span><i>◆</i><span>Live trading</span></div>
       <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
-        <a class="btn btn-gold" href="tickets.html">Get Your Pass</a>
-        <a class="btn btn-ghost" href="contact.html">Talk to Us</a>
+        <a class="btn btn-gold" href="tickets.php">Get Your Pass</a>
+        <a class="btn btn-ghost" href="contact.php">Talk to Us</a>
       </div>
       </div>
     </div>
@@ -510,34 +458,4 @@
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <img src="assets/img/logo.png" alt="PropFirm Conclave Kochi logo">
-        <p>India's premier proprietary trading event — by Finfluenze.<br>Connect · Trade · Get Funded.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Event</h4>
-        <a href="about.html">About</a><a href="speakers.html">Speakers</a><a href="agenda.html">Agenda</a><a href="tickets.html">Tickets</a>
-      </div>
-      <div class="foot-col">
-        <h4>Attend</h4>
-        <a href="venue.html">Venue</a><a href="sponsors.html">Sponsors</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a>
-      </div>
-      <div class="foot-col">
-        <h4>More</h4>
-        <a href="blog/index.html">Blog</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a>
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <span>© 2026 Finfluenze · PropFirm Conclave Kochi. All rights reserved.</span>
-      <span class="links"><a href="https://www.instagram.com/finfluenzeofficial" target="_blank" rel="noopener" aria-label="Finfluenze on Instagram" class="soc"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.3" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a></span>
-    </div>
-  </div>
-</footer>
-
-<script src="assets/js/main.js"></script>
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</body>
-</html>
+<?php include __DIR__ . '/includes/footer.php'; ?>
