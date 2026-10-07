@@ -439,6 +439,13 @@ footer{border-top:1px solid var(--line);background:#050506;padding:64px 0 30px;m
 /* ============ Speaker cards (photo) ============ */
 .speaker-grid.photo-grid{grid-template-columns:repeat(2,1fr)}
 @media(min-width:760px){.speaker-grid.photo-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1100px){
+  .speaker-grid.photo-grid{grid-template-columns:repeat(5,1fr);gap:14px}
+  .speaker-card .info{padding:16px 14px}
+  .speaker-card .info h3{font-size:1.05rem}
+  .speaker-card .bio{font-size:12.5px}
+  .speaker-card .co{font-size:10.5px;padding:5px 11px}
+}
 .speaker-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:transform .5s var(--ease),border-color .5s}
 .speaker-card:hover{transform:translateY(-6px);border-color:rgba(201,162,75,.5)}
 .speaker-card .photo{aspect-ratio:1/1;overflow:hidden;position:relative}
