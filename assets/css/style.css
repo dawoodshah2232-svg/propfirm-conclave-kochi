@@ -111,7 +111,11 @@ body.menu-open{overflow:hidden}
 body.menu-open .mobile-menu a{opacity:1;transform:none}
 .mobile-menu a:hover{color:var(--gold-hi)}
 .mobile-menu a .idx{font-family:var(--font-body);font-size:11px;color:var(--gold);letter-spacing:.2em}
-.mobile-menu .btn{margin-top:22px}
+.mobile-menu .btn{margin:26px 0 12px;width:100%}
+@media(max-width:559px){
+  .mobile-menu{padding:88px 26px 44px}
+  .mobile-menu a{font-size:1.65rem;padding:9px 0}
+}
 @media(min-width:960px){
   .nav-links{display:flex}
   .nav-cta{display:inline-flex}
