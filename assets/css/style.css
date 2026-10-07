@@ -234,6 +234,12 @@ body{top:0!important}
 }
 .split{display:grid;gap:30px;align-items:center}
 @media(min-width:900px){.split{grid-template-columns:1fr 1fr;gap:56px}.split.flip>.img-frame{order:2}}
+/* Split image fills the column height so image and text always align */
+@media(min-width:900px){
+  .split{align-items:stretch}
+  .split>.img-frame{min-height:400px;display:flex;flex-direction:column}
+  .split>.img-frame img{flex:1;min-height:0}
+}
 .split ul{list-style:none;margin:22px 0;display:grid;gap:14px}
 .split ul li{display:flex;gap:14px;align-items:flex-start;color:var(--muted);font-size:15.5px}
 .split ul li svg{flex:0 0 22px;width:22px;height:22px;stroke:var(--gold);fill:none;stroke-width:2;margin-top:3px}
