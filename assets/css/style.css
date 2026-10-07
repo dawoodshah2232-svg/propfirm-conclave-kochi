@@ -205,7 +205,8 @@ body{top:0!important}
 }
 .stat:hover{transform:translateY(-5px);border-color:rgba(201,162,75,.45)}
 .stat b{font-family:var(--font-display);font-size:2.6rem;color:var(--gold-hi);display:block;line-height:1}
-.stat span{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.stat>b span{font-size:inherit}
+.stat>span{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);display:block;margin-top:6px}
 
 /* ---------- cards / grids ---------- */
 .grid-2{display:grid;gap:22px}
