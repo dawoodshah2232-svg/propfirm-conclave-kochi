@@ -17,7 +17,7 @@
   --muted:#a9a9b8;
   --muted-2:#7c7c8a;
   --radius:18px;
-  --font-display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --font-display:"Bodoni Moda",Didot,"Playfair Display",Georgia,serif;
   --font-body:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
   --ease:cubic-bezier(.22,1,.36,1);
 }
@@ -429,3 +429,56 @@ footer{border-top:1px solid var(--line);background:#050506;padding:64px 0 30px;m
 .c-card h3{font-size:1.2rem;margin-bottom:8px}
 .c-card p{color:var(--muted);font-size:14.5px}
 .c-card a.big{color:var(--gold-hi);font-weight:600;font-size:16px;word-break:break-all}
+
+/* ============ Speaker cards (photo) ============ */
+.speaker-grid.photo-grid{grid-template-columns:repeat(2,1fr)}
+@media(min-width:760px){.speaker-grid.photo-grid{grid-template-columns:repeat(3,1fr)}}
+.speaker-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:transform .5s var(--ease),border-color .5s}
+.speaker-card:hover{transform:translateY(-6px);border-color:rgba(201,162,75,.5)}
+.speaker-card .photo{aspect-ratio:1/1;overflow:hidden;position:relative}
+.speaker-card .photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s var(--ease)}
+.speaker-card:hover .photo img{transform:scale(1.05)}
+.speaker-card .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(5,5,8,.55))}
+.speaker-card .info{padding:20px}
+.speaker-card .info h3{font-size:1.25rem;margin-bottom:4px}
+.speaker-card .role{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-hi);font-weight:600}
+.speaker-card .co{display:inline-block;margin-top:10px;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:6px 14px}
+.speaker-card .bio{font-size:13.5px;color:var(--muted);margin-top:10px;line-height:1.6}
+.sample-note{font-size:12.5px;color:var(--muted);letter-spacing:.04em;margin-top:18px;text-align:center}
+
+/* ============ Logo wall (sponsors / media) ============ */
+.logo-wall{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(min-width:760px){.logo-wall{grid-template-columns:repeat(4,1fr)}}
+.logo-tile{background:rgba(255,255,255,.025);border:1px solid var(--line);border-radius:14px;min-height:104px;display:flex;align-items:center;justify-content:center;padding:18px;transition:border-color .4s,transform .4s var(--ease)}
+.logo-tile:hover{border-color:rgba(201,162,75,.5);transform:translateY(-3px)}
+.logo-tile b{font-family:var(--font-display);font-size:1.15rem;letter-spacing:.12em;color:#e8e6df;text-align:center;font-weight:600}
+.logo-tile b small{display:block;font-family:var(--font-body);font-size:9px;letter-spacing:.34em;color:var(--gold);margin-top:5px;font-weight:600}
+.logo-tile.cta{border-style:dashed;background:rgba(201,162,75,.05)}
+.logo-tile.cta b{color:var(--gold-hi);font-size:1rem}
+.media-strip{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.media-strip span{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:9px 18px;background:rgba(255,255,255,.02)}
+
+/* ============ Who you'll meet ============ */
+.meet-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(min-width:900px){.meet-grid{grid-template-columns:repeat(3,1fr)}}
+.meet-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px;transition:transform .5s var(--ease),border-color .5s}
+.meet-card:hover{transform:translateY(-5px);border-color:rgba(201,162,75,.45)}
+.meet-card .n{font-family:var(--font-display);font-size:1rem;color:var(--gold);letter-spacing:.1em}
+.meet-card h3{font-size:1.3rem;margin:10px 0 8px}
+.meet-card p{font-size:14px;color:var(--muted);line-height:1.65}
+
+/* ============ Newsletter band ============ */
+.news-band{position:relative;overflow:hidden;border:1px solid rgba(201,162,75,.3);border-radius:calc(var(--radius) + 6px);padding:56px 32px;text-align:center;background:radial-gradient(ellipse 80% 120% at 50% -20%,rgba(201,162,75,.14),transparent 60%),var(--bg-2)}
+.news-band h2{font-size:clamp(1.9rem,4.5vw,3rem);margin-bottom:12px}
+.news-band p{color:var(--muted);max-width:520px;margin:0 auto 26px}
+.news-form{display:flex;gap:10px;max-width:520px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+.news-form input{flex:1;min-width:200px;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:99px;padding:14px 22px;color:var(--text);font-size:15px;font-family:var(--font-body)}
+.news-form input::placeholder{color:var(--muted)}
+.news-form input:focus{outline:none;border-color:var(--gold)}
+.news-ok{display:none;color:var(--gold-hi);font-weight:600;margin-top:6px}
+
+/* ============ Wide art banner ============ */
+.art-banner{border-radius:var(--radius);overflow:hidden;position:relative;border:1px solid var(--line);margin-bottom:34px}
+.art-banner img{width:100%;height:300px;object-fit:cover;display:block}
+@media(min-width:760px){.art-banner img{height:380px}}
+.art-banner .cap{position:absolute;left:0;right:0;bottom:0;padding:34px 28px 20px;background:linear-gradient(180deg,transparent,rgba(5,5,8,.85));font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-hi)}

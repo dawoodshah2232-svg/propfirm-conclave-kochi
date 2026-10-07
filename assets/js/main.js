@@ -207,3 +207,19 @@ document.querySelectorAll("form[data-mailto]").forEach(function(f){
   });
 });
 })();
+
+/* Newsletter -> mailto */
+(function(){
+  var nf = document.getElementById('newsForm');
+  if(!nf) return;
+  nf.addEventListener('submit', function(e){
+    e.preventDefault();
+    var n = (document.getElementById('newsName')||{}).value || '';
+    var em = (document.getElementById('newsEmail')||{}).value || '';
+    if(!em) return;
+    var body = 'Name: ' + n + '\nEmail: ' + em + '\n\nPlease add me to the PropFirm Conclave Kochi 2026 updates list.';
+    window.location.href = 'mailto:events@finfluenze.com?subject=' + encodeURIComponent('Conclave updates signup') + '&body=' + encodeURIComponent(body);
+    var ok = document.getElementById('newsOk');
+    if(ok) ok.style.display = 'block';
+  });
+})();
