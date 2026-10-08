@@ -27,10 +27,31 @@ Derived from real repo state. Status as of 2026-10-08. Unknowns are TODO, not gu
 
 ## Ready to do (unblocked, real repo gaps)
 
-- [ ] 20-point SEO sweep (owner's 2026-10-08 standard): audit baseline first
-  (crawlability, meta, H1 hierarchy, alt text, schema, internal links, WebP
-  compression, Core Web Vitals, OG tags, accessibility ≥95), then fix, verify,
-  commit, push. Note: some blog images are JPG — compress/convert where sensible.
+- [x] 20-point SEO sweep (owner's 2026-10-08 standard) — DONE 2026-10-08 (commit
+  "seo: apply 20-fix sweep"): 9 titles shortened to ≤60 chars, 12 descriptions
+  rewritten to 50–160 chars, heading hierarchy fixed (footer h4→p, agenda/tickets/
+  blog h3→h2), BreadcrumbList JSON-LD on all 18 public pages, OG/Twitter tags added
+  to 404/privacy/terms, 68 JPGs converted to WebP (16.7MB→9.0MB, originals kept),
+  width/height on all imgs, hero WebP preload + fetchpriority, skip-link +
+  :focus-visible + reduced-motion CSS, tap targets ≥44px (nav/lang/burger/btn-sm/
+  footer links), removed duplicate mobile Gallery link. Verified: 0 broken refs,
+  0 missing alt, 1 H1/page, sitemap 18/18 valid, ?v= bumped to 20261008a (HTML+PHP).
+- [ ] TODO(owner-UI) — Google Search Console: (1) add property for
+  https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/, (2) paste the
+  verification meta tag at the marked TODO comment in index.html `<head>`,
+  (3) submit sitemap.xml URL in GSC, (4) request indexing for /, tickets.html,
+  agenda.html. Repo-side done: robots.txt references sitemap; placeholder comment
+  in index.html head.
+- [ ] TODO(owner-UI) — Bing Webmaster Tools: add site + submit sitemap.xml
+  (same URL as above). Optional but cheap.
+- [ ] Backlink strategy (earn via content only — never buy/spam links):
+  (1) publish the 5 blog articles' key takeaways as LinkedIn/X threads linking
+  back to the article; (2) list the event on free event directories (AllEvents,
+  Townscript/Meetup-style listings, Kerala startup/trading communities);
+  (3) ask confirmed speakers/sponsors to link the event from their own
+  sites/social bios once announced; (4) Finfluenze Instagram bio link → site;
+  (5) post-event: publish recap + winner photos (linkable asset for trading
+  press). No link farms, no paid placements, no reciprocal-link schemes.
 - [ ] Keep `?v=` cache-bust params in sync: any CSS/JS change must bump both
   the stylesheet and `main.js` query params (HTML + PHP copies).
 - [ ] Admin smoke test on cPanel once deployed: login, one content edit, one test

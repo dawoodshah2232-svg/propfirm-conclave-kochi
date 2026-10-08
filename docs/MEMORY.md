@@ -5,6 +5,23 @@ Live: https://dawoodshah2232-svg.github.io/propfirm-conclave-kochi/
 
 ## Done
 
+- **2026-10-08 — 20-point SEO sweep** (owner's 2026-10-08 standard): baseline
+  audited first (script `/tmp/seo_audit1.py` — kept out of repo). Fixes:
+  9 titles → ≤60 chars; 12 descriptions → 50–160 chars; heading hierarchy clean
+  (footer `<h4>`→`<p class="foot-h">`, agenda/tickets/blog-index `<h3>`→`<h2>`);
+  BreadcrumbList JSON-LD added on all 18 public pages (existing Event/FAQPage/
+  BlogPosting/ItemList schemas untouched); OG+Twitter tags added to
+  404/privacy/terms; 68 JPGs converted to WebP (16.7MB → 9.0MB, originals kept
+  in place); `<img>` srcs → .webp, width/height injected on all imgs; hero WebP
+  preload + fetchpriority=high on index; skip-link, :focus-visible and
+  prefers-reduced-motion added to CSS; tap targets ≥44px for nav links, lang
+  button, burger, btn-sm, footer links; duplicate mobile-menu Gallery link
+  removed; `?v=` cache-bust bumped 20261007(l|e) → 20261008a across all HTML +
+  includes/head.php + includes/footer.php. Baseline already clean (kept):
+  sitemap 18/18 valid, robots.txt + sitemap ref, noindex only on 404, canonicals,
+  1 H1/page, 0 missing alt, 0 broken refs, all-HTTPS, viewport everywhere.
+  Follow-ups in TASKS.md: GSC/Bing owner-UI TODOs, backlink strategy note.
+
 - **2026-10-07 — full v1 site** (38b0d9e): dark premium mobile-first static site,
   18 pages (Home, About, Speakers, Agenda, Tickets, Sponsors, Venue, Blog, FAQ,
   Contact, Privacy, Terms, 404), 13-language Google-Translate switcher, full SEO
